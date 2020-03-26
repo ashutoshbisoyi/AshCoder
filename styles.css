@@ -1,0 +1,320 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+hr{
+	border: 1px solid white;
+
+}
+.bg-image{
+	background-image:url('bgimage.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.fr{
+	height: 100vh;
+}
+.navbar ul li{
+	font-size: 20px;
+	color: white !important;
+	font-weight: bold;
+}
+.navbar ul li a{
+	font-size: 20px;
+	color: white !important;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.second-col{
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(110, 227, 198,0.5));
+	text-align: left;
+	color: white;
+}
+.second-col h4{
+	font-size: 20px;
+	font-weight: normal;
+	color: #E2E2E2FF;
+}
+#sch{
+	margin-top: 150px;
+
+}
+.navbar{
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+}
+#home{
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+}
+.myButton {
+	background-color:transparent;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:12px 18px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:rgba(0,0,0,0.5);
+	text-decoration: none;
+	color: white;
+
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#logo{
+	height: 100px;
+	width: 200px;
+}
+/* -------------------------------Developer----------------------- */
+.dcf-image-div{
+	background-color:#222222;
+	padding: 100px 0 100px 0;
+}
+.dcf-description-div{
+	background-color:#71db77;
+	color: #222222;
+	padding: 100px 0 100px 0;
+}
+#mylogo3{
+	
+	text-align: center;
+	margin: 0 auto 0 auto;
+}
+.dcf-description-div h2{
+	margin-bottom: 30px;
+	width: 50%;
+	text-align: left;
+}
+.dcf-description-div h6{
+	width: 50%;
+	text-align: left;
+}
+.dcf-description-div p{
+	width: 50%;
+	text-align: left;
+}
+.social-media-icon{
+	width: 50%;
+	text-align: left;
+}
+.social-media-icon img{
+    height: 30px;
+    width: 30px;
+ }
+     .social-media-icon .linkedin{
+    height: 40px;
+    width: 40px;
+    }
+    .social-media-icon .facebook{
+    height: 25px;
+    width: 25px;
+    }
+      .social-media-icon li{
+    	display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    }
+
+/* --------------------------------profile----------------------- */
+.profile-container-fluid{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0,0.5)),url('images/classicbg.jpg');
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;	
+}
+.profile-container{
+	padding: 60px 0 60px 0;
+	color: white;
+}
+.profile-container h2{
+	margin:30px 0 30px 0;
+}
+.profile-container h6{
+	font-weight: normal;
+	color: #E2E2E2FF;
+	width: 60%;
+}
+#profileimage{
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	margin: 0 auto 0 auto;
+}
+/* ----------------------------------team----------------------------- */
+.btn{
+	background-color: #71db77;
+	color: #222222;
+	border: none;
+}
+.btn:hover{
+	background-color:#222222 ;
+	color: #71db77;
+	border: none;
+}
+.team-container-fluid{
+	width: 100%;
+	height: auto;
+	/* background: linear-gradient(to top, #434343 0%, #000000 100%); */
+	background-color: #dbd8e3;
+}
+.team-row{
+	padding: 50px 10px 50px 10px;
+}
+#colleague-image{
+	height: 205px;
+	width: 100%;
+}
+#teacher-image{
+	height: 200px;
+	width: 100%;
+}
+#instructer-image{
+	height: 200px;
+	width: 100%;
+}
+.card{
+	background-color: #222222;
+	color: white;
+	transition: transform 1.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+/* ----------------------------------contact------------------- */
+.contact-row-info{
+	padding: 50px 0 50px 0;
+}
+.contact-row-table table{
+	width: 80%;
+	margin: 0 auto 0 auto;
+}
+.contact-row-table table tr{
+	margin-bottom: 10px;
+}
+.contact-row-table{
+	padding: 50px 0 50px 0;
+	background-color: rgba(34, 34, 34, 1.0) !important ;
+}
+.contact-container{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.contact-row-info h6{
+	width: 80%;
+}
+/* ------------------------footer------------------- */
+.footer-row-icon ul li{
+	display: inline-block;
+}
+.footer-row-icon ul{
+	float: right;
+}
+.footer-row{
+	background-color:  #222222;
+	color:#71db77;
+	padding-top: 30px;
+}
+#fi{
+	font-size: 25px;
+}
+#si{
+	font-size: 25px;
+}
+#ti{
+	font-size: 25px;
+}
+/* ---------------------------------Media Query-------------------- */
+@media(max-width: 991px){
+	#logo{
+	height: 50px;
+	width: 100px;
+	text-align: center;
+}
+@media(max-width: 768px){
+	.card{
+		margin: 30px 0 30px 0;
+	}
+}
+@media(max-width: 576px){
+	.contact-row-info h3,h6,p{
+		margin-left: 20px;
+	}
+	#fp{
+		font-size: 10px;
+		width: 100%;
+		float: left;
+		margin-left: 0;
+	}
+	#fi{
+	font-size: 20px;
+}
+#si{
+	font-size: 20px;
+}
+#ti{
+	font-size: 20px;
+}
+.second-col h4{
+	font-size: 20px;
+}
+#sch{
+	margin-top: 70px;
+	margin-bottom: 15px;
+
+}
+.myButton {
+	margin-top: 8px;
+	font-size:13px;
+	padding:12px 18px;
+}
+.dcf-description-div h2{
+	margin-bottom: 30px;
+	width: 60%;
+}
+.dcf-description-div h6{
+	width: 70%;
+}
+.dcf-description-div p{
+	width: 70%;
+}
+.social-media-icon{
+	width: 70%;
+}
+
+    .profile-container h6{
+	
+	width: 70%;
+	margin-right: 15px;
+}
+}
+@media(max-width:380px)
+{
+	.second-col h4{
+	font-size: 15px;
+}
+#sch{
+	margin-top: 70px;
+	margin-bottom: 15px;
+
+}
+.myButton {
+	margin-top: 8px;
+	font-size:13px;
+	padding:12px 18px;
+}
+}
