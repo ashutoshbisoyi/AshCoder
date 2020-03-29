@@ -5,6 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
@@ -50,10 +51,10 @@
     <!-- -----------------------------------Developer------------------- -->
     <div class="container-fluid developer-container-fluid">
       <div class="row developer-row">
-        <div class="col-md-6 dcf-image-div">
+        <div class="col-md-6 dcf-image-div" data-aos="fade-left">
           <center><img src="images/mylogo.png" id="mylogo3"></center>
         </div>
-        <div class="col-md-6 dcf-description-div">
+        <div class="col-md-6 dcf-description-div" data-aos="fade-right">
           <center>
           <h2>About Developer</h2>
           
@@ -73,7 +74,7 @@
     <!-- -----------------------------Profile--------------------------- -->
     <div class="container-fluid profile-container-fluid">
       <div class="container profile-container">
-        <center><img src="images/profile.jpg" id="profileimage">
+        <center><img src="images/profile.jpg" id="profileimage" data-aos="zoom-in">
         <h2>Ashutosh Bisoyi</h2>
         <h6>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</h6></center>
       </div>
@@ -83,7 +84,7 @@
       <div class="row team-row">
         <div class="col-md-4 col-12">
           <center>
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;" data-aos="slide-right">
             <img src="images/colleague.jpg" class="card-img-top" alt="..." id="colleague-image">
             <div class="card-body">
               <h5 class="Colleague">Colleague</h5>
@@ -96,7 +97,7 @@
         
         <div class="col-md-4 col-12">
           <center>
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" data-aos="slide-right">
             <img src="images/teacher.jpg" class="card-img-top" alt="..." id="teacher-image">
             <div class="card-body">
               <h5 class="card-title">Mentor</h5>
@@ -108,7 +109,7 @@
         </div>
         <div class="col-md-4 col-12">
           <center>
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 18rem;" data-aos="slide-right">
             <img src="images/instructer.jpg" class="card-img-top" alt="..." id="instructer-image">
             <div class="card-body">
               <h5 class="card-title">Instructer</h5>
@@ -123,14 +124,14 @@
     <!-- -------------------------------------Contact--------------------- -->
     <div class="container contact-container">
       <div class="row contact-row">
-        <div class="col-md-6 col-12 contact-row-info">
+        <div class="col-md-6 col-12 contact-row-info" data-aos="fade-left">
           <h3 class="">Feel free to contact</h3>
           <h6 class="my-5">Hello Everyone! Have a great day :) I am here to help you. If you want to know something or you have any suggestion then please mail me. Thank You.</h6>
           <p><i class="fa fa-map-marker mr-1" aria-hidden="true"></i>Khallikote,Odisha,India</p>
           <p><i class="fa fa-phone mr-1" aria-hidden="true"></i>Khallikote,Odisha,India</p>
           <p><i class="fa fa-envelope mr-1" aria-hidden="true"></i>ashutoshbisoyi205@gmail.com</p>
         </div>
-        <div class="col-md-6 col-12 contact-row-table">
+        <div class="col-md-6 col-12 contact-row-table" data-aos="fade-right">
             <table>
             <tr><td><input type="text" class="form-control mb-4" placeholder="First name"></td></tr>
             <tr><td><input type="email" class="form-control mb-4" placeholder="Email"></td></tr>
@@ -162,5 +163,13 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+      offset:200,
+      duration:1000
+    });
+</script>
   </body>
 </html>
